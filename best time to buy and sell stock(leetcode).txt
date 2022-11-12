@@ -1,0 +1,19 @@
+The approach is as follows:
+
+Iterate through each price
+Keep track of the minimum price (this will be our "buy" price)
+Keep track of the maximum profit (profit being the current price / "sell" price minus the minimum price / "buy" price)
+Return the max profit
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        max_profit = 0
+        min_price = max(prices)
+        
+        for price in prices:
+            if price < min_price:
+                min_price = price
+            
+            if price - min_price > max_profit:
+                max_profit = price - min_price
+        
+        return max_profit
