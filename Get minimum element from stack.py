@@ -1,6 +1,5 @@
 # question link : https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1?page=1&category[]=Stack&sortBy=submissions
 
-# User function Template for python3
 
 class stack:
     def __init__(self):
