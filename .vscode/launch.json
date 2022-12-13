@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
+        {
+            "type": "java",
+            "name": "Launch PeakElement",
+            "request": "launch",
+            "mainClass": "PeakElement",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
         {
             "name": "(gdb) Launch",
             "type": "cppdbg",
