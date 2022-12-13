@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch gfg_pair",
+            "request": "launch",
+            "mainClass": "gfg_pair",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "Launch PeakElement",
             "request": "launch",
             "mainClass": "PeakElement",
