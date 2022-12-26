@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch fibo_dp",
+            "request": "launch",
+            "mainClass": "fibo_dp",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "Launch between_two_sets",
             "request": "launch",
             "mainClass": "between_two_sets",
