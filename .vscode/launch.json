@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch count_pairs",
+            "request": "launch",
+            "mainClass": "count_pairs",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "Launch fibo_dp",
             "request": "launch",
             "mainClass": "fibo_dp",
