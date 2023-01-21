@@ -1,0 +1,44 @@
+public class MyClass {
+    public static void main(String args[]) {
+     
+    }
+    void printclosest(int arr1[],int arr2[], int m, int n, int x){
+        
+        int diff = Integer.MAX_VALUE; //initialize the difference between the pair sum and x.
+        
+        int res_l = 0; // result index from arr1[]
+        int res_r = 0; // result index from arr2[]
+        
+        int l = 0; // start from left side of the arr1[]
+        int r = n-1; // start from right side of the arr2[]
+        
+        while(l<m and r >=0)
+        {
+           // If this pair is closer to x than the previously
+           // found closest, then update res_l, res_r and diff 
+            if(Math.abs(arr1[l]+arr2[r]-x)< difff)
+            {
+                res_l = l;
+                res_r = r;
+                diff = Math.abs(arr1[l]+arr2[r]-x);
+            }
+            // If sum of this pair is more than x, move to smaller side
+            if(arr1[l] + arr2[r] > x)
+            r--;
+            else // move to the greater side
+            l++;
+        }
+        System.out.print("The closest pair is [" + arr1[res_l] +
+                         ", " + arr2[res_r] + "]");
+    }
+    public static void main(String args[])
+    {
+        ClosestPair ob = new ClosestPair();
+        int ar1[] = {1, 4, 5, 7};
+        int ar2[] = {10, 20, 30, 40};
+        int m = ar1.length;
+        int n = ar2.length;
+        int x = 38;
+        ob.printClosest(ar1, ar2, m, n, x);
+    }
+}
