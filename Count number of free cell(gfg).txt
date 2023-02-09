@@ -1,0 +1,34 @@
+// problem link: https://practice.geeksforgeeks.org/problems/90a81c305b1fe939b9230a67824749ceaa493eab/1
+class Solution {
+    long[] countZero(int N, int K, int[][] arr){
+        // code here
+        long freeCells = N*N;
+        boolean[] filledRows = new boolean[N];
+        boolean[] filledColumns = new boolean[N];
+        
+        int rowcount = 0, colcount = 0;
+        long[] ans = new long[K];
+        
+        for(int i=0;i<K;i++)
+        {
+            int row = arr[i][0];
+            int col = arr[i][1];
+            
+            if(!filledRows[row-1])
+            {
+                freeCells -= (N-colcount);
+                filledRows[row-1] = true;
+                rowcount++;
+            }
+            if(!filledColumns[col-1])
+            {
+                freeCells -= (N-rowcount);
+                filledColumns[col-1] = true;
+                colcount++;
+            }
+            ans[i] = freeCells;
+            
+        }
+        return ans;
+    }
+}
