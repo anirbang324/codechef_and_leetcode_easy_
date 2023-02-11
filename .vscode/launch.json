@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch graph1",
+            "request": "launch",
+            "mainClass": "graph1",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "Launch compare_the_triplets",
             "request": "launch",
             "mainClass": "compare_the_triplets",
