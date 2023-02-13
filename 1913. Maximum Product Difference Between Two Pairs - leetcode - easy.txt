@@ -1,0 +1,13 @@
+// question: https://leetcode.com/problems/maximum-product-difference-between-two-pairs/
+
+class Solution {
+    public int maxProductDifference(int[] nums) {
+        Arrays.sort(nums);
+        int prd1, prd2,res;
+        int n = nums.length;
+        prd1 = nums[0]*nums[1];
+        prd2 = nums[n-1]*nums[n-2];
+        res = Math.abs(prd1-prd2);
+        return res;
+    }
+}
