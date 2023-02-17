@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch catalan_dp",
+            "request": "launch",
+            "mainClass": "catalan_dp",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
+            "name": "Launch catalan_iterative",
+            "request": "launch",
+            "mainClass": "catalan_iterative",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "Launch graph1",
             "request": "launch",
             "mainClass": "graph1",
