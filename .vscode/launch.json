@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch multidimensional_array_interviewbit",
+            "request": "launch",
+            "mainClass": "multidimensional_array_interviewbit",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "Launch catalan_dp",
             "request": "launch",
             "mainClass": "catalan_dp",
