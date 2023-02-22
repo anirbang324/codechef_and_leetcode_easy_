@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch prime_interviewbit",
+            "request": "launch",
+            "mainClass": "prime_interviewbit",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
+            "name": "Launch palindrome_integer_interviewbit",
+            "request": "launch",
+            "mainClass": "palindrome_integer_interviewbit",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
+            "name": "Launch bishop_interviewbit",
+            "request": "launch",
+            "mainClass": "bishop_interviewbit",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "Launch multidimensional_array_interviewbit",
             "request": "launch",
             "mainClass": "multidimensional_array_interviewbit",
