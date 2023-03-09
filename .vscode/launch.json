@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bell_number",
+            "request": "launch",
+            "mainClass": "bell_number",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "Launch prime_interviewbit",
             "request": "launch",
             "mainClass": "prime_interviewbit",
