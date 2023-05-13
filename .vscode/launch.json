@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Shuffle_string_leetcode",
+            "request": "launch",
+            "mainClass": "Shuffle_string_leetcode",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "bell_number",
             "request": "launch",
             "mainClass": "bell_number",
