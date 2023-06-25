@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Palindromic_Array",
+            "request": "launch",
+            "mainClass": "geeksforgeeks.Palindromic_Array",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
+            "name": "Palindromi_cArray",
+            "request": "launch",
+            "mainClass": "geeksforgeeks.Palindromi_cArray",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
+            "name": "PalindromicArrayGFG",
+            "request": "launch",
+            "mainClass": "PalindromicArrayGFG",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
+            "name": "palindromc_array_gfg",
+            "request": "launch",
+            "mainClass": "palindromc_array_gfg",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
+            "name": "palindromic_array_gfg",
+            "request": "launch",
+            "mainClass": "palindromic_array_gfg",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "Shuffle_string_leetcode",
             "request": "launch",
             "mainClass": "Shuffle_string_leetcode",
