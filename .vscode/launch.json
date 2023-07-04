@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sieve",
+            "request": "launch",
+            "mainClass": "sieve",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
+            "name": "SieveOfEratosthenes",
+            "request": "launch",
+            "mainClass": "SieveOfEratosthenes",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
+            "name": "sieveofwratosthenes",
+            "request": "launch",
+            "mainClass": "sieveofwratosthenes",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "Palindromic_Array",
             "request": "launch",
             "mainClass": "geeksforgeeks.Palindromic_Array",
