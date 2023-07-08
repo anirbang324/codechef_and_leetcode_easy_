@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subset_of_array_iterative",
+            "request": "launch",
+            "mainClass": "subset_of_array_iterative",
+            "projectName": "codechef, leetcode, gfg_5216bd54"
+        },
+        {
+            "type": "java",
             "name": "sieve",
             "request": "launch",
             "mainClass": "sieve",

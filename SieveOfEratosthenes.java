@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class SieveOfEratosthenes {
+public class SieveOfEratosthenes {
     void sieveOfEratosthenes(int n) {
         boolean prime[] = new boolean[n + 1];
         for (int i = 0; i <= n; i++)
