@@ -1,3 +1,5 @@
+// qs - https://www.codechef.com/problems/NUM239
+
 // /* package codechef; // don't place package name! */
 
 import java.util.*;
