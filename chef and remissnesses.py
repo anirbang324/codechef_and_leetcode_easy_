@@ -8,3 +8,7 @@ for i in range(0,n):
     else:
         print(b,end=' ')
     print(a+b)
+    
+    
+    
+
