@@ -13,8 +13,7 @@ public class subarraysum {
 
         while (end < n) {
             sum += arr[end];
-
-            while (sum > s && i <= end) {
+ 
                 sum -= arr[i];
                 i++;
             }
